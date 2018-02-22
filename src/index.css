@@ -1,0 +1,113 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+ol {
+    width: 50%;
+    float: left;
+}
+ol, ul {
+  padding-left: 10px;
+  list-style-type: none;
+}
+li {
+  padding-bottom: 5px;
+  min-height: 50px;
+}
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.game-moves {
+  margin: 10px;
+  border: 3px solid black;
+  overflow:auto;
+  height: 500px;
+  min-width: 600px;
+}
+.game-info {
+  text-align: center;
+}
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 36px;
+  line-height: 34px;
+  height: 60px;
+  width: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+.move1 {
+  background: yellow;
+}
+.legalMoves {
+  background: green;
+}
+.black {
+  background: black;
+  color: white;
+}
+.high {
+  color: red;
+  font-weight: bolder;
+}
+  
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.button-toggle button {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px;
+  background-color: #4CAF50;
+  font-weight: bolder;
+}
+.button-toggle {
+  text-align: center;
+  margin: 10px;
+}
+.select {
+  min-width: 100px;
+}
+.game-board {
+  min-width: 630px;
+}
+.select select {
+  margin-left: 5px;
+}
+.size {
+  margin-top: 10px;
+  width: 70px;
+}
+.reset {
+  margin-top: 10px;
+}
+.letter button {
+  margin-left: 5px;
+  width: 40px;
+  height: 40px;
+  line-height:0px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: lightblue;
+}
+.letterS button {
+  background-color: olive;
+}
+  
+
